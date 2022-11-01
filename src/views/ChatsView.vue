@@ -12,11 +12,7 @@
             <pre>
                 chatId: {{ this.$route.params.id }}
             </pre>
-            <pre>
-                <small>
-                    {{ this.$route }}
-                </small>
-            </pre>
+            <router-view />
         </article>
     </div>
 </template>
